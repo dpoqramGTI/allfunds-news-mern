@@ -1,0 +1,86 @@
+# .gitignore sugerido
+
+# Node & package managers
+
+node\_modules/
+npm-debug.log\*
+yarn-debug.log\*
+yarn-error.log\*
+pnpm-debug.log\*
+
+# Build outputs & caches
+
+dist/
+build/
+.cache/
+.temp/
+logs/
+\*.log
+
+# TypeScript
+
+\*.tsbuildinfo
+
+# Vite & Frontend env
+
+frontend/.vite/
+frontend/.env.local
+frontend/.env.\*.local
+
+# Coverage
+
+coverage/
+\*.lcov
+backend/coverage/
+frontend/coverage/
+
+# IDEs & Editors
+
+.vscode/
+.idea/
+\*.swp
+\*.swo
+.eslintcache
+
+# OS files
+
+.DS\_Store
+Thumbs.db
+
+# Environment variables (both frontend & backend)
+
+.env
+.env.\*
+!env.example
+
+# Docker & processes
+
+docker-compose.override.yml
+\*.pid
+
+# Backend specific
+
+backend/dist/
+backend/.env.local
+backend/.env.\*.local
+
+# Frontend specific
+
+frontend/dist/
+frontend/.env.local
+frontend/.env.\*.local
+
+# Test outputs & reports
+
+junit.xml
+test-results.xml
+
+# Lock files (prefer root lock file)
+
+frontend/package-lock.json
+
+backend/package-lock.json
+
+# Script generated files
+
+scripts/*.local.*
